@@ -10,8 +10,8 @@ int main(void)
 char c;
 c = 'a';
 while
-(c <= 'z') {
-if (( c != 'q' && c != 'e') && c <= 'z')
+(c <= 'Z') {
+if (( c != '' && c != 'e') && c <= 'Z')
 putchar(c);
 c++;
 }
