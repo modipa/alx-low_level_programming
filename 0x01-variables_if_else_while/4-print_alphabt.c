@@ -4,14 +4,13 @@
  *
  * Return: Always 0 (succcess)
  */
-
 int main(void)
 {
 char c;
 c = 'a';
 while
-(c <= 'Z') {
-if (( c != '' && c != 'e') && c <= 'Z')
+(c <= 'z') {
+if (( c != 'q' && c != 'e') && c <= 'z')
 putchar(c);
 c++;
 }
